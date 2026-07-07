@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice level_3</title>
+</head>
+<body>
+    <h1>Practice QS 1</h1>
+    <table border="black">
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <hr>
+    <hr>
+    <h1>Practice QS 2</h1>
+    <form action="/server">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="sex">Sex:</label>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="cntry">
+                <option>Select an option</option>
+                <option value="IND">India</option>
+                <option value="USA">America</option>
+                <option value="china">China</option>
+                <option value="nepal">Nepal</option>
+                <option value="canada">Canada</option>
+                <option value="germny">Germany</option>
+                <option value="japan">Japan</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="msg">Message:</label><br>
+            <textarea id="msg"></textarea>
+        </div>
+        <br>
+        <input type="checkbox" name="subscribe" id="sub">
+        <label for="sub">Subscribe?</label>
+        <br><br>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <hr>
+    <h1>Practice QS 3</h1>
+    <br>
+    <br>    
+    <h2>Feedback Form</h2>
+    <form action="/server">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Write your name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Write your email">
+        <br>
+        <br>
+        <label for="msg">Message:</label>
+        <textarea id="msg"></textarea>
+        <br>
+        <br>
+        <label for="rating">Rate us our of 5</label>
+        <br>
+        <input type="radio" id="1" name="rating" value="1">
+        <label for="1">1</label>
+        <br>
+        <input type="radio" id="2" name="rating" value="2">
+        <label for="2">2</label>
+        <br>
+        <input type="radio" id="3" name="rating" value="3">
+        <label for="3">3</label>
+        <br>
+        <input type="radio" id="4" name="rating" value="4">
+        <label for="4">4</label>  
+        <br>
+        <input type="radio" id="5" name="rating" value="5">
+        <label for="5">5</label>    
+        <br>
+        <br>
+        <button>Send your message!</button>  
+    </form>
+</body>
+</html>
