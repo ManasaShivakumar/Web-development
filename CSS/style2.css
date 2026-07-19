@@ -1,0 +1,24 @@
+h1{
+    font-weight: 800;
+    text-decoration: wavy red underline;
+}
+
+h2{
+    font-weight: bold;  
+    text-decoration: purple line-through;
+}
+
+h3{
+    font-weight: 700;
+    text-decoration: dotted rgb(83, 10, 83) overline;
+}
+
+p{
+    font-weight:normal;
+    text-decoration:underline;
+    text-decoration-style:double;
+    text-decoration-color: brown;
+}
+a{
+    text-decoration: none;
+}
