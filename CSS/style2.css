@@ -1,6 +1,9 @@
 h1{
-    font-weight: 800;
-    text-decoration: wavy red underline;
+    font-weight: bold;    
+    letter-spacing: normal;
+    font-size:50px;
+    font-family:avent garde,papyrus;
+
 }
 
 h2{
@@ -14,10 +17,9 @@ h3{
 }
 
 p{
-    font-weight:normal;
-    text-decoration:underline;
-    text-decoration-style:double;
-    text-decoration-color: brown;
+    font-weight:normal;  
+    line-height: 1.25;
+    font-size:15px;
 }
 a{
     text-decoration: none;

@@ -1,0 +1,49 @@
+/*SELECTORS*/
+/*universal*/
+* {
+    font-family: "Courier New";
+    background-color: wheat;
+}
+
+/*element */
+h3{
+    color:blueviolet;
+}
+h1{
+    color: #b92b27;
+}
+
+h1,h3{
+    color :#b92b27;
+}
+/* id */
+#login{
+    color:green;
+}
+#signup{
+    color:darkcyan;
+}
+#login,#signup{
+    background-color: white;
+}
+/*class*/
+.upvote{
+    color:rgb(238, 207, 6);
+    background-color: rgb(118, 61, 171);
+}
+/* p a{
+    text-decoration:none;
+    font-weight: bold;
+    color:rgb(239, 88, 7);
+} */
+.post a{
+    text-decoration:none;
+    font-weight: bold;
+    color:rgb(239, 88, 7);
+}
+
+nav ul a{
+    text-decoration:none;
+    font-weight: bold;
+    color:black
+}
