@@ -1,12 +1,12 @@
 /*SELECTORS*/
 /*universal*/
-* {
+/* * {
     font-family: "Courier New";
     background-color: wheat;
-}
+} */
 
 /*element */
-h3{
+/* h3{
     color:blueviolet;
 }
 h1{
@@ -15,9 +15,9 @@ h1{
 
 h1,h3{
     color :#b92b27;
-}
+} */
 /* id */
-#login{
+/* #login{
     color:green;
 }
 #signup{
@@ -25,25 +25,66 @@ h1,h3{
 }
 #login,#signup{
     background-color: white;
-}
+} */
 /*class*/
-.upvote{
+/* .upvote{
     color:rgb(238, 207, 6);
     background-color: rgb(118, 61, 171);
-}
+} */
 /* p a{
     text-decoration:none;
     font-weight: bold;
     color:rgb(239, 88, 7);
 } */
-.post a{
+/* .post a{
     text-decoration:none;
     font-weight: bold;
     color:rgb(239, 88, 7);
-}
+} */
 
-nav ul a{
+/* nav ul a{
     text-decoration:none;
     font-weight: bold;
     color:black
+}
+
+p + h3 {
+    text-decoration: wavy black underline;
+}
+.upvote + button {
+    background-color: #e9544f;
+    color: rgb(211, 230, 218);
+}
+div > input {
+    background-color: rgb(193, 193, 247);
+}
+
+input[type="text"]{
+    font-weight: bold;
+}
+input[type="password"]{
+    color :rgb(100, 164, 35)
+}
+input[type]{
+    text-decoration: line-through;
+}
+
+button:hover {
+    background-color: rgb(90, 195, 230);
+    color: #e9544f;
+}
+
+button:active {
+    background-color: chartreuse;
+    color:blanchedalmond;
+}
+h3:active {
+    text-decoration: none;
+}
+input[type="radio"]:checked + label {
+    color:rgb(231, 8, 79);
+    font-weight: bold;
+} */
+div:nth-of-type(2n) {
+    background-color: rgb(237, 117, 117);
 }

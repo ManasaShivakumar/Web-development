@@ -9,3 +9,13 @@ h1{
     text-decoration:teal double underline;
     text-transform:uppercase;
 }
+
+/* practice Qs 4 */
+
+div[id="myid"] p {
+    color : green;
+}
+
+#myid p{
+    color: green;
+}
