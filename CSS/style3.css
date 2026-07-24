@@ -85,6 +85,52 @@ input[type="radio"]:checked + label {
     color:rgb(231, 8, 79);
     font-weight: bold;
 } */
-div:nth-of-type(2n) {
+/* div:nth-of-type(2n) {
     background-color: rgb(237, 117, 117);
+} */
+
+/* h3::first-letter {
+    color:brown;
+    background-color: aqua;
+}
+
+p::first-line {
+    font-weight: 900;
+    font-size: 50px;
+    color:green
+}
+
+nav ul::first-line {
+    font-weight: 900;
+    font-size: 50px;
+    color:green
+}
+
+p::selection {
+    background-color: yellow;
+    color:brown;
+}
+
+h3::selection {
+    background-color: lightcoral;
+    color:rgb(17, 160, 48);
+}
+ */
+
+h3{
+    background-color: greenyellow !important;
+}
+h3{
+    background-color: wheat;
+}
+.post{
+    background-color: aqua;
+}
+button{
+    background-color: brown;
+    color: white;
+}
+#login{
+    background-color: aqua;
+    color: black;
 }
