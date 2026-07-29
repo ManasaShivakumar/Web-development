@@ -1,0 +1,25 @@
+div {    
+    height: 150px;
+    width : 450px;
+    background-color: wheat;
+    border-width: 5px;
+    border-style: solid;
+    border-color: palevioletred ; 
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px 50px 20px 50px;
+       
+}
+h1{
+    width : 500px;
+    border: 5px dashed rgb(255, 255, 0);   
+    border-radius:10px ;
+    padding: 10px 20px 5px 20px;
+}
+button{
+    background-color: rgb(225, 172, 112);
+    color: rgb(157, 81, 172);
+    border: 2px solid rgb(245, 14, 180);
+    border-radius: 0px 15px 0px 15px;
+    padding: 10px;
+}

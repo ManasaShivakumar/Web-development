@@ -1,0 +1,28 @@
+/* h2{
+    display: inline;
+}
+span{
+    display: block;
+} */
+
+/* span {
+    background-color: rgb(219, 90, 21);
+    border : 2px solid brown;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    margin: 50px;
+} */
+
+div{
+    border : 5px solid brown;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px;
+    display: inline-block;
+}
+div:nth-of-type(3){
+    display: none;
+}
