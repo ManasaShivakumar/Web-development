@@ -15,7 +15,7 @@
     opacity: 0.5;    
 } */
 
-h2{    
+/* h2{    
     width: 300px;
     margin: 0 auto;    
     background-color: salmon;
@@ -28,4 +28,110 @@ h2:hover{
     width: 150px;
     background-color: rgb(237, 81, 64);
     color: aquamarine;    
+} */
+
+/* section {
+    margin-top: 100px;
+}
+div{
+    width:200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+transform
+
+#one{
+    transform: rotate(45deg);
+}
+
+#two{
+    transform: scale(0.8);
+    transform: scaleY(2);
+}
+
+#three{
+    transform: translate(50px, 50px);
+    transform: translateX(100px);
+    transform : translateY(100px);
+}
+#four{
+    transform: skew(-30deg);
+}
+#five{
+    transform: rotate(30deg) scale(2) translateX(50px) skew(25deg);
+} */
+
+/* div{
+    height: 200px;
+    width: 400px;
+    background-color: blueviolet;    
+    margin: 40px auto;    
+    box-shadow: 3px 3px 30px #1d0101;
+} */
+
+/* div{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(30, 166, 121);
+    margin: 40px auto;
+    background-image: url(bgimage.jpg);
+    background-size: contain;
+    color: rgb(13, 234, 190);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+    top : 100px;
+    left: 100px;
+}
+#relative {
+    background-color: bisque;
+    position: relative;
+    top : 100px;
+    left : 100px;
+}
+
+#absolute{
+    background-color: bisque;
+    position: absolute;
+    top : 100px;
+    left : 100px;
+}
+
+#fixed{
+    background-color: bisque;
+    position: fixed;
+    top : 100px;
+    left : 100px;
+}
+#sticky{
+    background-color: bisque;
+    position: sticky;
+    top: 20px;      
 }
