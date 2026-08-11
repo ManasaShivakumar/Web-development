@@ -1,0 +1,53 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;    
+}
+
+@media (width:400px){
+    h1{
+        background-color: rgb(238, 140, 140);
+    }
+}
+
+@media (max-width : 400px){
+    h1{
+        background-color: aqua;
+        font-size: 20px;
+        font-style: italic;
+    }
+    div{
+        height: 150px;
+        width: 150px;
+        border-radius: 30px;
+        background-color: aquamarine;
+        text-align: center;
+    }
+}
+
+@media (min-width : 400px){
+    *{
+        width: 80%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        align-items: center;
+    }
+}
+
+@media (min-width :200px) and (max-width :700px){
+    *{
+        background-color: rgb(208, 166, 115);
+    }
+}
+
+@media (orientation: landscape){
+    *{
+        background-color: palevioletred;
+    }
+}
