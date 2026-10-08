@@ -1,4 +1,8 @@
-.container{
+/* .container{
     background-color: yellow;
+} */
+.card{
+    margin: 10px;
+    padding: 5px;
+    width: 18rem;    
 }
-
